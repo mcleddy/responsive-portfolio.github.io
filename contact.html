@@ -1,0 +1,155 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <span class="navbar-brand mb-1 h1">Mary Leddy</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class=content>
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-md-left my-4">Contact</h2>
+        <hr>
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-9">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-control">
+
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-9">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Your Email</label>
+                                <input type="text" id="email" name="email" class="form-control">
+
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <label for="message">Your Message</label>
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="page-footer font-small blue">
+
+        <div class="footer-copyright text-center py-3">© 2019 Copyright </div>
+
+    </footer>
+
+</body>
+
+<style>
+   .navbar {
+        background-color: white;
+        color:grey;
+        width: 100%;
+    }
+
+    .nav-link{
+        color:teal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .navbar-brand{ background-color: teal;
+    color:white;
+    padding:15px;
+    
+    }
+
+
+    h2 {
+        color: teal;
+    }
+
+    .content {
+        margin: 80px 150px 150px 150px;
+        background-color: white;
+        display: block;
+        width: 80%;
+        height: 80%;
+        text-align: left;
+        position: relative;
+        padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    body {
+        background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/fishnets-and-hearts.png);
+        background-position: 100%
+    }
+
+    .btn {
+        background-color: teal;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border: teal
+    }
+
+    .text-center {
+        color: white
+    }
+
+    footer {
+        background-color: rgb(160, 158, 158);
+        width: 110%;
+        border-top: teal 7px;
+        border-style: solid;
+        color: white;
+        text-align: center;
+    }
+</style>
